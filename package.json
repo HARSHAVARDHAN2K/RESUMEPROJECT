@@ -1,0 +1,19 @@
+{
+  "name": "resumeproject",
+  "version": "1.0.0",
+  "description": "my resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARSHAVARDHAN2K/RESUMEPROJECT.git"
+  },
+  "author": "harshavardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HARSHAVARDHAN2K/RESUMEPROJECT/issues"
+  },
+  "homepage": "https://github.com/HARSHAVARDHAN2K/RESUMEPROJECT#readme"
+}
