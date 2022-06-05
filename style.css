@@ -1,0 +1,708 @@
+body{
+    margin: 0px auto;
+}
+/* BODY HEADER*/
+#body-header{
+    height: 70vh;
+    background-image: url('./images/andras-vas-Bd7gNnWJBkU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    z-index: 1 ;
+}
+/* HORIZONTAL LIST */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    margin-top: 5vh;
+    font-size: larger;
+    font-weight: 500;
+}
+#navigation-bar{
+    position: relative;
+}
+.drop-down{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    display: none;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.nav-menu li a:hover{
+    color: rgb(139, 27, 27);
+    border-bottom: 1px solid white;
+    
+}
+
+.nav-menu li a{
+    transition: color 0.5s,border-bottom 4s;
+}
+
+/*NAME*/
+#name{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px snow;
+    margin-top: 20vh;
+}
+/*SOCIAL LINK*/
+ul li a i{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+}
+
+#social-link{
+    margin-top: -5vh;
+}
+
+ul li a i:hover{
+    box-shadow: 0px 0px 6px 4px whitesmoke;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*ABOUT*/
+#about{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#image{
+    height: 12rem; 
+    width: 12rem;
+    margin: auto;
+}
+#image img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    margin-top: -25vh;
+    border: 3px solid whitesmoke;
+}
+#about p{
+    margin-top: -10%;
+    width: 70%;
+    margin: 0px 15% 0px 15%;
+    text-align: justify;
+    font-size: larger;
+    
+}
+
+/*SECTION*/
+section{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: rgba(128, 128, 128,0.5);
+    
+}
+
+section:nth-children(2n+1){
+    background-color: white;
+}
+
+/*SKILLS*/
+#skills{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+}
+#skills h1 span{
+    color: #2857a4;
+    font-weight: 600;
+}
+#tech{
+    display: flex;
+flex-direction:row;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+width: 70vw;
+height: 30vh;
+}
+
+.skill-progress{
+    width: 12rem;
+    height: 2rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+
+}
+
+
+#tech span{
+    margin-left: 5px;
+    font-size: 1.5rem;
+
+}
+
+#tech>div>div{
+    height: inherit;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: left;
+}
+
+#cp{
+    width:85%;
+    background-color: #2857a4; 
+}
+#html{
+    width:90%;
+    background-color: orange; 
+}
+#css{
+    width:75%;
+    background-color: red; 
+}
+#java{
+    width:50%;
+    background-color: darkkhaki; 
+}
+#node{
+    width:40%;
+    background-color: navy; 
+}
+#db{
+    width:70%;
+    background-color: palegoldenrod; 
+}
+
+/*PORTFOLIO*/
+#posrtfolio{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience h1,#education h1,#portfolio h1{
+    color: #2857a4;
+}
+
+.portimg img{
+    height: auto;
+    width: 30vw;
+    position: relative;
+}
+
+.portimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+ 
+ 
+.hove{
+    position: relative;
+}
+ 
+.hove:hover{
+    opacity: 0.5;
+    box-shadow: 5px 10px 5px 10px darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hove span{
+    display: none;
+}
+.hove:hover span{
+    display: block;
+    position:relative;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    
+}
+
+/*contact*/
+#contact h1 span{
+    font-size: 1.6em;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#2857a4 ,#403066);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+#connect{
+    width: 90vw;
+    margin-left: 10vw;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 60vh;
+}
+
+#details form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input{
+    width: 100%;
+    font-size: 1rem;
+    background-color: inherit;
+    border: none;
+    margin:3vh;
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+
+
+
+input[type="submit"]{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+input:focus{
+    outline: none;
+}
+
+#address{
+    width: 40%;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
+}
+
+#links{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    align-items: baseline;
+    margin-top: -5vh;
+}
+
+#links>a{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#address p {
+ color: cyan;
+  margin-top: -1.5vh;
+  margin-left: 2vw;
+line-height: 15px;}
+
+#address span{
+    margin-left: 2vw;
+    color: cyan;
+}
+
+/*EXPERIENCE*/
+#experience h1{
+    color: #2857a4;
+}
+#time-line-container{
+    position: relative;
+    width: 75%;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.timline-box{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    margin: 5px;
+    /* border:2px solid black; */
+}
+
+.timline-box:nth-child(2n){
+    left: 53%;
+}
+
+.aero{
+    display: inline-block;
+    position: sticky;
+    top:20vh;
+    left: 60%;
+    font-weight: bolder;
+    font-size: larger;
+    color: #2857a4;
+}
+
+.aero i{
+    margin-left: -1.5vh;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 1px dashed #0096fa6b;
+    left: 50%;
+}
+
+/* .timline-box:nth-child(2n)::before{
+    position: absolute;
+    content: ' ';
+    border-radius: 50%;
+    width: 0.5rem;
+    float: left;
+    top: 45%;
+    height: 0.5rem;
+    background-color: darkgray;
+} */
+/* 
+.timline-box:nth-child(2n+1):after{
+    position: absolute;
+    content: ' ';
+    border-radius: 50%;
+    top: 45%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: darkgray;
+    left: -4.2vh;
+}
+
+.timline-box:nth-child(2n)::before{
+    position: absolute;
+    content: ' ';
+    border-radius: 50%;
+    top: 45%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: darkgray;
+    left: -4.2vh;
+}
+
+.timline-box:nth-child(2n+1):after{
+    position: absolute;
+    content: ' ';
+    border-radius: 50%;
+    top: 45%;
+    left: 40%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: darkgray;
+    left: -4.2vh;
+} */
+
+.hed::before{
+background-size: contain;
+content: ' ';
+width: 50px;
+display: inline-block;
+height: 50px;
+background-image: url('https://tse3.mm.bing.net/th?id=OIP.R4nT-YcbsVlkyFBv4pcYhAHaHJ&pid=Api&P=0&w=184&h=177');
+}
+
+ 
+.hed span{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: flex-end;
+     align-content: flex-end;
+     position: relative;
+     top: -8vh;
+     margin-top: -10px;
+    
+}
+
+.timline-box p{
+    position: relative;
+    top: -8vh;
+}
+
+.des{
+    color: #2857a4;
+    font-size: larger;
+    font-weight: bolder;
+}
+.com{
+    color: rgb(231, 159, 25);
+    font-size: large;
+    font-weight: bold;
+}
+
+.timline-box p{
+    color: rgb(133, 95, 95);
+    text-align: justify;
+}
+/* MEDIA QUERY 768px */
+@media screen and (max-width:768px) {
+    /* HEADER */
+    #navigation-bar{
+        margin: 0%;
+    }
+    #name{
+       
+       margin-top: 25vh;
+       display: block;
+    }
+    #social-link i{
+        font-size: 20px;
+    }
+
+    body{
+        font-size: 15px;
+    }
+    /* ABOUT */
+    #about p{
+        margin-top: -10vh;
+        width: 90%;
+    }
+
+    /* SKILLS */
+   
+    #skills{
+        height: 70vh;
+    }
+    #skills h1{
+        position: relative;
+        top: -5vh;
+    }
+    #tech{
+        margin-top: -5vh;
+        height: 55vh;
+    }
+    .skill-progress{
+        margin-bottom: 15px;
+    }
+    /*FOR AEROPLANE AND CAR*/
+    #experience, #education{
+        font-size: 1.1rem;
+    }
+
+    .timeline-divider{
+        left: 5%;
+    }
+    .timline-box{
+        left:12%;
+        width: 80%;
+    }
+    .timline-box:nth-child(2n){
+        left: 12%;
+    }
+
+    /* Contact */
+    #contact{
+        width:100%;
+        position: absolute;
+    }
+    #connect{
+        height: 100vh;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #address, #details{
+        width: 80%;
+        position: relative;
+        top: -10vh;
+    }
+
+    #details{
+        margin-bottom: 5vh;
+    }
+
+    /* POrtfolio */
+  
+    .portimg img{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: center;
+        height: fit-content;
+    }
+}
+
+ 
+/*Media query 572px*/
+
+@media screen and (max-width:572px) {
+    /* HEADER */
+    #navigation-bar{
+        margin: 0%;
+    }
+    #name{
+       
+       margin-top: 25vh;
+       display: block;
+    }
+   .drop-down{
+       display: inline-block;
+       position: relative;
+       top: 3vh;
+       left: 2vw;
+       
+   }
+
+
+    #social-link i{
+        font-size: 20px;
+    }
+
+    body{
+        font-size: 15px;
+    }
+    /* ABOUT */
+    #about p{
+        margin-top: -10vh;
+        width: 90%;
+    }
+
+    /* SKILLS */
+    #navigation-bar ul{
+        display: none;
+    }
+    #skills{
+        height: 70vh;
+    }
+    #skills h1{
+        position: relative;
+        top: -5vh;
+    }
+    #tech{
+        margin-top: -5vh;
+        height: 55vh;
+    }
+    .skill-progress{
+        margin-bottom: 15px;
+    }
+    /*FOR AEROPLANE AND CAR*/
+    #experience, #education{
+        font-size: 1.1rem;
+    }
+
+    .timeline-divider{
+        left: 5%;
+    }
+    .timline-box{
+        left:12%;
+        width: 80%;
+    }
+    .timline-box:nth-child(2n){
+        left: 12%;
+    }
+
+    /* Contact */
+    #contact{
+        width:100%;
+        position: absolute;
+    }
+    #connect{
+        height: 100vh;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #address, #details{
+        width: 80%;
+        position: relative;
+        top: -10vh;
+    }
+
+    #details{
+        margin-bottom: 5vh;
+    }
+
+    /* POrtfolio */
+  
+    .portimg img{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: center;
+        height: fit-content;
+    }
+    .drop-down i:hover  {
+        background-color: #2857a4;
+        padding: 10px;
+    }
+
+    .drop-down i:hover #navigation-bar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    #navigation-bar ul{
+        overflow: hidden;
+    }
+
+    
+}
+
+body {
+    background-color: lightgrey;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}
